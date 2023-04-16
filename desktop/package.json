@@ -1,0 +1,21 @@
+{
+  "name": "listen-rpc-desktop",
+  "version": "1.0.0",
+  "description": "The ListenRPC app for the web extension",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "listenrpc",
+    "cli"
+  ],
+  "author": "Nostalgia3",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

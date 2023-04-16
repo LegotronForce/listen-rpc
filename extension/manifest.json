@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Listen RPC",
+    "version": "1.0",
+    "description": "Stuff",
+    "content_scripts": [
+        {
+            "js": ["scripts/viewer.js"],
+            "matches": [
+                "https://music.youtube.com/*"
+            ]
+        }
+    ]
+}
